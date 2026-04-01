@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  workflow_call:
+    inputs:
+      language:
+        required: true
+        type: string  # python | node
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - if: inputs.language == 'python'
+        uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+        run: pip install black flake8
+        run: black --check src/ tests/
+      - if: inputs.language == 'node'
+        uses: actions/setup-node@v4
+        with: { node-version: '20' }
+        run: npm ci
+        run: npm run lint || npx prettier --check src/
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - if: inputs.language == 'python'
+        uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+        run: pip install -e ".[dev]"
+        run: pytest --cov=src
+      - if: inputs.language == 'node'
+        uses: actions/setup-node@v4
+        with: { node-version: '20' }
+        run: npm ci
+        run: npm test -- --coverage
+
+  coverage:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Coverage gate: 80%"

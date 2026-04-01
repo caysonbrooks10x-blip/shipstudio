@@ -1,0 +1,13 @@
+"""Tests for {{name}}"""
+import pytest
+from main import main
+
+
+def test_main() -> None:
+    result = main()
+    assert "{{name}}" in result
+
+
+def test_import() -> None:
+    import main as m
+    assert hasattr(m, 'main')

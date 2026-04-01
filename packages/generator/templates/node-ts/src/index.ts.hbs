@@ -1,0 +1,23 @@
+// {{name}} - {{description}}
+// Category: {{category}} | Gig: {{gigType}}
+
+export interface Config {
+  name: string;
+  version: string;
+}
+
+export function create{{#each (splitCamelCase name)}}{{this}}{{/each}}(): Config {
+  return {
+    name: '{{name}}',
+    version: '0.1.0'
+  };
+}
+
+export function run(): string {
+  return `{{name}} is running!`;
+}
+
+// CLI entry
+if (require.main === module) {
+  console.log(run());
+}

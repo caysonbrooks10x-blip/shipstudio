@@ -1,0 +1,467 @@
+=== Fixed Publish Script ===
+Using GitHub user: caysonbrooks10x-blip
+Starting fixed publish at Wed Apr  1 09:57:37 +08 2026...
+Git repo exists: ai-chatbot-framework
+[Wed Apr  1 09:57:38 +08 2026] Rate limit remaining: 4995
+https://github.com/caysonbrooks10x-blip/ai-chatbot-framework
+SKIP (already exists or auth issue): ai-chatbot-framework
+Sleeping 90 seconds...
+Initializing git: ml-model-dashboard
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/ai-ml/ml-model-dashboard/.git/
+[main (root-commit) 79dd644] Initial commit: ml-model-dashboard
+ 7 files changed, 589 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 pyproject.toml
+ create mode 100644 src/dashboard.py
+ create mode 100644 src/main.py
+ create mode 100644 src/model_loader.py
+ create mode 100644 tests/test_model_loader.py
+[Wed Apr  1 09:59:12 +08 2026] Rate limit remaining: 4991
+https://github.com/caysonbrooks10x-blip/ml-model-dashboard
+SKIP (already exists or auth issue): ml-model-dashboard
+Sleeping 90 seconds...
+Initializing git: nlp-text-analyzer
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/ai-ml/nlp-text-analyzer/.git/
+[main (root-commit) 36e304b] Initial commit: nlp-text-analyzer
+ 6 files changed, 436 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 pyproject.toml
+ create mode 100644 src/main.py
+ create mode 100644 src/nlp.py
+ create mode 100644 tests/test_nlp.py
+[Wed Apr  1 10:00:45 +08 2026] Rate limit remaining: 4986
+https://github.com/caysonbrooks10x-blip/nlp-text-analyzer
+SKIP (already exists or auth issue): nlp-text-analyzer
+Sleeping 90 seconds...
+Initializing git: image-classifier-api
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/ai-ml/image-classifier-api/.git/
+[main (root-commit) de6302c] Initial commit: image-classifier-api
+ 7 files changed, 542 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 pyproject.toml
+ create mode 100644 src/classifier.py
+ create mode 100644 src/main.py
+ create mode 100644 src/preprocessing.py
+ create mode 100644 tests/test_classifier.py
+[Wed Apr  1 10:02:20 +08 2026] Rate limit remaining: 4984
+https://github.com/caysonbrooks10x-blip/image-classifier-api
+SKIP (already exists or auth issue): image-classifier-api
+Sleeping 90 seconds...
+Initializing git: ai-prompt-library
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/ai-ml/ai-prompt-library/.git/
+[main (root-commit) a41ee81] Initial commit: ai-prompt-library
+ 9 files changed, 478 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/db.ts
+ create mode 100644 src/index.ts
+ create mode 100644 src/prompts.ts
+ create mode 100644 tests/test_prompts.ts
+ create mode 100644 tsconfig.json
+ create mode 100644 vitest.config.ts
+[Wed Apr  1 10:03:54 +08 2026] Rate limit remaining: 4982
+https://github.com/caysonbrooks10x-blip/ai-prompt-library
+SKIP (already exists or auth issue): ai-prompt-library
+Sleeping 90 seconds...
+Initializing git: voice-to-text-pipeline
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/ai-ml/voice-to-text-pipeline/.git/
+[main (root-commit) d3d421e] Initial commit: voice-to-text-pipeline
+ 6 files changed, 492 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 pyproject.toml
+ create mode 100644 src/main.py
+ create mode 100644 src/transcriber.py
+ create mode 100644 tests/test_transcriber.py
+[Wed Apr  1 10:05:28 +08 2026] Rate limit remaining: 4980
+https://github.com/caysonbrooks10x-blip/voice-to-text-pipeline
+SKIP (already exists or auth issue): voice-to-text-pipeline
+Sleeping 90 seconds...
+Initializing git: password-strength-checker
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/cybersecurity/password-strength-checker/.git/
+[main (root-commit) 922d5c1] Initial commit: password-strength-checker
+ 6 files changed, 288 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/checker.ts
+ create mode 100644 src/index.ts
+ create mode 100644 tests/test_checker.ts
+[Wed Apr  1 10:07:02 +08 2026] Rate limit remaining: 4976
+https://github.com/caysonbrooks10x-blip/password-strength-checker
+SKIP (already exists or auth issue): password-strength-checker
+Sleeping 90 seconds...
+Initializing git: network-scanner-cli
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/cybersecurity/network-scanner-cli/.git/
+[main (root-commit) a9233c4] Initial commit: network-scanner-cli
+ 6 files changed, 461 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 pyproject.toml
+ create mode 100644 src/main.py
+ create mode 100644 src/scanner.py
+ create mode 100644 tests/test_scanner.py
+[Wed Apr  1 10:08:35 +08 2026] Rate limit remaining: 4974
+https://github.com/caysonbrooks10x-blip/network-scanner-cli
+SKIP (already exists or auth issue): network-scanner-cli
+Sleeping 90 seconds...
+Initializing git: ssl-certificate-checker
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/cybersecurity/ssl-certificate-checker/.git/
+[main (root-commit) 7e2f24d] Initial commit: ssl-certificate-checker
+ 6 files changed, 381 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/checker.ts
+ create mode 100644 src/index.ts
+ create mode 100644 tests/test_checker.ts
+[Wed Apr  1 10:10:09 +08 2026] Rate limit remaining: 4972
+https://github.com/caysonbrooks10x-blip/ssl-certificate-checker
+SKIP (already exists or auth issue): ssl-certificate-checker
+Sleeping 90 seconds...
+Initializing git: penetration-testing-recon
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/cybersecurity/penetration-testing-recon/.git/
+[main (root-commit) 9e3bef3] Initial commit: penetration-testing-recon
+ 6 files changed, 513 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 pyproject.toml
+ create mode 100644 src/main.py
+ create mode 100644 src/recon.py
+ create mode 100644 tests/test_recon.py
+[Wed Apr  1 10:11:45 +08 2026] Rate limit remaining: 4970
+https://github.com/caysonbrooks10x-blip/penetration-testing-recon
+SKIP (already exists or auth issue): penetration-testing-recon
+Sleeping 90 seconds...
+Initializing git: security-audit-dashboard
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/cybersecurity/security-audit-dashboard/.git/
+[main (root-commit) cc7a72d] Initial commit: security-audit-dashboard
+ 7 files changed, 667 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/index.html
+ create mode 100644 src/server.ts
+ create mode 100644 src/store.ts
+ create mode 100644 tests/test_server.ts
+[Wed Apr  1 10:13:19 +08 2026] Rate limit remaining: 4968
+https://github.com/caysonbrooks10x-blip/security-audit-dashboard
+SKIP (already exists or auth issue): security-audit-dashboard
+Sleeping 90 seconds...
+Initializing git: encrypted-notes-app
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/cybersecurity/encrypted-notes-app/.git/
+[main (root-commit) 37f1250] Initial commit: encrypted-notes-app
+ 6 files changed, 441 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/crypto.ts
+ create mode 100644 src/index.ts
+ create mode 100644 tests/test_crypto.ts
+[Wed Apr  1 10:14:53 +08 2026] Rate limit remaining: 4966
+https://github.com/caysonbrooks10x-blip/encrypted-notes-app
+SKIP (already exists or auth issue): encrypted-notes-app
+Sleeping 90 seconds...
+Initializing git: rest-api-scaffolder
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/software-dev/rest-api-scaffolder/.git/
+[main (root-commit) 3a6ebb5] Initial commit: rest-api-scaffolder
+ 6 files changed, 561 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 pyproject.toml
+ create mode 100644 src/generator.py
+ create mode 100644 src/main.py
+ create mode 100644 tests/test_generator.py
+[Wed Apr  1 10:16:27 +08 2026] Rate limit remaining: 4964
+https://github.com/caysonbrooks10x-blip/rest-api-scaffolder
+SKIP (already exists or auth issue): rest-api-scaffolder
+Sleeping 90 seconds...
+Initializing git: git-automation-scripts
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/software-dev/git-automation-scripts/.git/
+[main (root-commit) aa915e1] Initial commit: git-automation-scripts
+ 6 files changed, 576 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/gitops.ts
+ create mode 100644 src/index.ts
+ create mode 100644 tests/test_gitops.ts
+[Wed Apr  1 10:18:01 +08 2026] Rate limit remaining: 4962
+https://github.com/caysonbrooks10x-blip/git-automation-scripts
+SKIP (already exists or auth issue): git-automation-scripts
+Sleeping 90 seconds...
+Initializing git: docker-compose-generator
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/software-dev/docker-compose-generator/.git/
+[main (root-commit) 0ce2d36] Initial commit: docker-compose-generator
+ 6 files changed, 586 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/generator.ts
+ create mode 100644 src/index.ts
+ create mode 100644 tests/test_generator.ts
+[Wed Apr  1 10:19:35 +08 2026] Rate limit remaining: 5000
+https://github.com/caysonbrooks10x-blip/docker-compose-generator
+SKIP (already exists or auth issue): docker-compose-generator
+Sleeping 90 seconds...
+Initializing git: code-quality-dashboard
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/software-dev/code-quality-dashboard/.git/
+[main (root-commit) 6274e8d] Initial commit: code-quality-dashboard
+ 7 files changed, 680 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/index.html
+ create mode 100644 src/linter.ts
+ create mode 100644 src/server.ts
+ create mode 100644 tests/test_linter.ts
+[Wed Apr  1 10:21:16 +08 2026] Rate limit remaining: 4996
+https://github.com/caysonbrooks10x-blip/code-quality-dashboard
+SKIP (already exists or auth issue): code-quality-dashboard
+Sleeping 90 seconds...
+Initializing git: webhook-debugger
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/software-dev/webhook-debugger/.git/
+[main (root-commit) 1db57ed] Initial commit: webhook-debugger
+ 6 files changed, 501 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/index.ts
+ create mode 100644 src/server.ts
+ create mode 100644 tests/test_server.ts
+[Wed Apr  1 10:22:50 +08 2026] Rate limit remaining: 4994
+https://github.com/caysonbrooks10x-blip/webhook-debugger
+SKIP (already exists or auth issue): webhook-debugger
+Sleeping 90 seconds...
+Initializing git: dependency-audit-tool
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/software-dev/dependency-audit-tool/.git/
+[main (root-commit) 35003c8] Initial commit: dependency-audit-tool
+ 6 files changed, 671 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 pyproject.toml
+ create mode 100644 src/auditor.py
+ create mode 100644 src/main.py
+ create mode 100644 tests/test_auditor.py
+[Wed Apr  1 10:24:24 +08 2026] Rate limit remaining: 4992
+https://github.com/caysonbrooks10x-blip/dependency-audit-tool
+SKIP (already exists or auth issue): dependency-audit-tool
+Sleeping 90 seconds...
+Initializing git: ads-dashboard
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/digital-marketing/ads-dashboard/.git/
+[main (root-commit) ba54998] Initial commit: ads-dashboard
+ 9 files changed, 629 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/index.html
+ create mode 100644 src/server.ts
+ create mode 100644 src/store.ts
+ create mode 100644 tests/test_server.ts
+ create mode 100644 tsconfig.json
+ create mode 100644 vitest.config.ts
+[Wed Apr  1 10:25:58 +08 2026] Rate limit remaining: 4990
+https://github.com/caysonbrooks10x-blip/ads-dashboard
+SKIP (already exists or auth issue): ads-dashboard
+Sleeping 90 seconds...
+Initializing git: seo-audit-toolkit
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/digital-marketing/seo-audit-toolkit/.git/
+[main (root-commit) 007f899] Initial commit: seo-audit-toolkit
+ 8 files changed, 666 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/auditor.ts
+ create mode 100644 src/cli.ts
+ create mode 100644 tests/test_auditor.ts
+ create mode 100644 tsconfig.json
+ create mode 100644 vitest.config.ts
+[Wed Apr  1 10:27:32 +08 2026] Rate limit remaining: 4988
+https://github.com/caysonbrooks10x-blip/seo-audit-toolkit
+SKIP (already exists or auth issue): seo-audit-toolkit
+Sleeping 90 seconds...
+Initializing git: social-media-scheduler
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/digital-marketing/social-media-scheduler/.git/
+[main (root-commit) 5e020e9] Initial commit: social-media-scheduler
+ 9 files changed, 715 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/scheduler.ts
+ create mode 100644 src/server.ts
+ create mode 100644 src/store.ts
+ create mode 100644 tests/test_scheduler.ts
+ create mode 100644 tsconfig.json
+ create mode 100644 vitest.config.ts
+[Wed Apr  1 10:29:05 +08 2026] Rate limit remaining: 4986
+https://github.com/caysonbrooks10x-blip/social-media-scheduler
+SKIP (already exists or auth issue): social-media-scheduler
+Sleeping 90 seconds...
+Initializing git: email-automation-system
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/digital-marketing/email-automation-system/.git/
+[main (root-commit) 2d79ea0] Initial commit: email-automation-system
+ 9 files changed, 919 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/sequences.ts
+ create mode 100644 src/server.ts
+ create mode 100644 src/templates.ts
+ create mode 100644 tests/test_sequences.ts
+ create mode 100644 tsconfig.json
+ create mode 100644 vitest.config.ts
+[Wed Apr  1 10:30:40 +08 2026] Rate limit remaining: 4984
+https://github.com/caysonbrooks10x-blip/email-automation-system
+SKIP (already exists or auth issue): email-automation-system
+Sleeping 90 seconds...
+Initializing git: conversion-rate-dashboard
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/digital-marketing/conversion-rate-dashboard/.git/
+[main (root-commit) 3383745] Initial commit: conversion-rate-dashboard
+ 9 files changed, 801 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/analytics.ts
+ create mode 100644 src/index.html
+ create mode 100644 src/server.ts
+ create mode 100644 tests/test_analytics.ts
+ create mode 100644 tsconfig.json
+ create mode 100644 vitest.config.ts
+[Wed Apr  1 10:32:14 +08 2026] Rate limit remaining: 4982
+https://github.com/caysonbrooks10x-blip/conversion-rate-dashboard
+SKIP (already exists or auth issue): conversion-rate-dashboard
+Sleeping 90 seconds...
+Initializing git: lead-generation-engine
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/digital-marketing/lead-generation-engine/.git/
+[main (root-commit) 174ec96] Initial commit: lead-generation-engine
+ 9 files changed, 1042 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/landing.ts
+ create mode 100644 src/leads.ts
+ create mode 100644 src/server.ts
+ create mode 100644 tests/test_leads.ts
+ create mode 100644 tsconfig.json
+ create mode 100644 vitest.config.ts
+[Wed Apr  1 10:33:48 +08 2026] Rate limit remaining: 4980
+https://github.com/caysonbrooks10x-blip/lead-generation-engine
+SKIP (already exists or auth issue): lead-generation-engine
+Sleeping 90 seconds...
+Initializing git: sales-copy-engine
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/copywriting/sales-copy-engine/.git/
+[main (root-commit) 5e97b58] Initial commit: sales-copy-engine
+ 8 files changed, 684 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/copy.ts
+ create mode 100644 src/server.ts
+ create mode 100644 tests/test_copy.ts
+ create mode 100644 tsconfig.json
+ create mode 100644 vitest.config.ts
+[Wed Apr  1 10:35:22 +08 2026] Rate limit remaining: 4978
+https://github.com/caysonbrooks10x-blip/sales-copy-engine
+SKIP (already exists or auth issue): sales-copy-engine
+Sleeping 90 seconds...
+Initializing git: ad-copy-generator
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/copywriting/ad-copy-generator/.git/
+[main (root-commit) 3fefdf1] Initial commit: ad-copy-generator
+ 8 files changed, 664 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/generator.ts
+ create mode 100644 src/index.ts
+ create mode 100644 tests/test_generator.ts
+ create mode 100644 tsconfig.json
+ create mode 100644 vitest.config.ts
+[Wed Apr  1 10:36:56 +08 2026] Rate limit remaining: 4976
+https://github.com/caysonbrooks10x-blip/ad-copy-generator
+SKIP (already exists or auth issue): ad-copy-generator
+Sleeping 90 seconds...
+Initializing git: email-nurture-sequence
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/copywriting/email-nurture-sequence/.git/
+[main (root-commit) dae839f] Initial commit: email-nurture-sequence
+ 8 files changed, 756 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/sequences.ts
+ create mode 100644 src/server.ts
+ create mode 100644 tests/test_sequences.ts
+ create mode 100644 tsconfig.json
+ create mode 100644 vitest.config.ts
+[Wed Apr  1 10:38:30 +08 2026] Rate limit remaining: 4974
+https://github.com/caysonbrooks10x-blip/email-nurture-sequence
+SKIP (already exists or auth issue): email-nurture-sequence
+Sleeping 90 seconds...
+Initializing git: vsl-script-generator
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/copywriting/vsl-script-generator/.git/
+[main (root-commit) 6fe7389] Initial commit: vsl-script-generator
+ 8 files changed, 561 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/generator.ts
+ create mode 100644 src/index.ts
+ create mode 100644 tests/test_generator.ts
+ create mode 100644 tsconfig.json
+ create mode 100644 vitest.config.ts
+[Wed Apr  1 10:40:04 +08 2026] Rate limit remaining: 4972
+https://github.com/caysonbrooks10x-blip/vsl-script-generator
+SKIP (already exists or auth issue): vsl-script-generator
+Sleeping 90 seconds...
+Initializing git: product-page-copy
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/copywriting/product-page-copy/.git/
+[main (root-commit) 3236f62] Initial commit: product-page-copy
+ 8 files changed, 470 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/copy.ts
+ create mode 100644 src/server.ts
+ create mode 100644 tests/test_copy.ts
+ create mode 100644 tsconfig.json
+ create mode 100644 vitest.config.ts
+[Wed Apr  1 10:41:38 +08 2026] Rate limit remaining: 4970
+https://github.com/caysonbrooks10x-blip/product-page-copy
+SKIP (already exists or auth issue): product-page-copy
+Sleeping 90 seconds...
+Initializing git: brand-messaging-toolkit
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/copywriting/brand-messaging-toolkit/.git/
+[main (root-commit) a251d89] Initial commit: brand-messaging-toolkit
+ 8 files changed, 679 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/messaging.ts
+ create mode 100644 src/server.ts
+ create mode 100644 tests/test_messaging.ts
+ create mode 100644 tsconfig.json
+ create mode 100644 vitest.config.ts
+[Wed Apr  1 10:43:12 +08 2026] Rate limit remaining: 4968
+https://github.com/caysonbrooks10x-blip/brand-messaging-toolkit
+SKIP (already exists or auth issue): brand-messaging-toolkit
+Sleeping 90 seconds...
+Initializing git: saas-dashboard-redesign
+Initialized empty Git repository in /Users/raven/FreelanceForge/projects/ui-ux/saas-dashboard-redesign/.git/
+[main (root-commit) bd37f29] Initial commit: saas-dashboard-redesign
+ 9 files changed, 683 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
+ create mode 100644 README.md
+ create mode 100644 package.json
+ create mode 100644 src/data.ts
+ create mode 100644 src/index.html
+ create mode 100644 src/server.ts
+ create mode 100644 tests/test_server.ts
+ create mode 100644 tsconfig.json
+ create mode 100644 vitest.config.ts
+[Wed Apr  1 10:44:46 +08 2026] Rate limit remaining: 4966
+https://github.com/caysonbrooks10x-blip/saas-dashboard-redesign
+SKIP (already exists or auth issue): saas-dashboard-redesign
+Sleeping 90 seconds...
