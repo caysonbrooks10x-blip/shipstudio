@@ -1,7 +1,0 @@
-Starting batch publish...
-Creating: freelanceforge/ai-chatbot-framework
-SKIP (may exist)
-Creating: freelanceforge/ml-model-dashboard
-SKIP (may exist)
-Creating: freelanceforge/nlp-text-analyzer
-SKIP (may exist)
