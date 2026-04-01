@@ -19,7 +19,7 @@ function getRateLimit(): number {
 }
 
 function createRepo(project: any): boolean {
-  const fullName = `freelanceforge/${project.name}`;
+  const fullName = `shipstudio/${project.name}`;
   try {
     console.log(`Creating ${fullName}...`);
     execSync(`gh repo create ${fullName} --public --source ./projects/${project.category}/${project.name} --push`, { stdio: 'pipe' });
